@@ -1,6 +1,6 @@
 # NER-LLM — Label-Free NER with Lightweight LLMs
 
-![Project Overview Placeholder](docs/images/project-overview.png)
+![Project Overview Placeholder](./project-overview.png)
 
 NER-LLM is an end-to-end framework for **truly zero-shot, unconditioned named entity recognition**. Instead of hand-curated tag sets or token-level annotations, we generate a massive synthetic corpus with large models, then fine-tune a compact LLM (Qwen 0.6B) using LoRA/DoRA adapters to make it output clean JSON entity maps. The result is a deployable NER system that scales to any domain, supports multilingual inputs, and runs comfortably on a single consumer GPU.
 
@@ -111,4 +111,5 @@ Everything else (temporary caches, intermediate artifacts) lives under `thinking
 ---
 
 Questions or ideas? Open an issue or drop a pull request—this repo is intentionally modular so you can swap base models, prompts, or LoRA targets without rewriting the stack.
+
 
